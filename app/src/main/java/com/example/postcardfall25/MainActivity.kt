@@ -74,8 +74,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier) 
         Image(
             painter = image,
             contentDescription = null,
-            contentScale = ContentScale.Crop,
-            alpha = 0.5F
+            contentScale = ContentScale.Crop
         )
         GreetingText(
             message = message,
